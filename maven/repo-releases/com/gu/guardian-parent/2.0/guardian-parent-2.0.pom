@@ -1,0 +1,131 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.gu</groupId>
+    <artifactId>guardian-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>2.0</version>
+
+    <name>Guardian parent</name>
+
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>1.6</source>
+                        <target>1.6</target>
+                        <encoding>UTF-8</encoding>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <configuration>
+                        <encoding>UTF-8</encoding>
+                    </configuration>
+                </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifestEntries>
+
+                            <Title>${project.description}</Title>
+                            <Revision>${manifest.svnrevision}</Revision>
+                            <Label>${manifest.label}</Label>
+                            <Date>${maven.build.timestamp}</Date>
+                            <Branch>${manifest.branch}</Branch>
+                            <Build>${manifest.build.number}</Build>
+
+                            <Implementation-Title>${project.name}</Implementation-Title>
+                            <Implementation-Version>${manifest.svnrevision}</Implementation-Version>
+
+                        </manifestEntries>
+                    </archive>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifestEntries>
+                            <Title>${project.description}</Title>
+                            <Revision>${manifest.svnrevision}</Revision>
+                            <Label>${manifest.label}</Label>
+                            <Date>${maven.build.timestamp}</Date>
+                            <Branch>${manifest.branch}</Branch>
+                            <Build>${manifest.build.number}</Build>
+
+                            <Implementation-Title>${project.name}</Implementation-Title>
+
+                            <Implementation-Version>${manifest.svnrevision}</Implementation-Version>
+
+                        </manifestEntries>
+                    </archive>
+                </configuration>
+            </plugin>
+
+            </plugins>
+
+            
+        </pluginManagement>
+
+        <plugins>
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <version>6.1.16</version>
+            </plugin>
+        </plugins>
+    </build>
+
+    <properties>
+        <manifest.branch>Developer Build</manifest.branch>
+        <manifest.label>Developer Build</manifest.label>
+        <manifest.svnrevision>DEV</manifest.svnrevision>
+
+        <!-- sadly this must be lower case because we use it as a
+         GAE version number -->
+        <manifest.build.number>dev</manifest.build.number>
+    </properties>
+
+    <profiles>
+        <profile>
+            <id>continuous-integration</id>
+            <properties>
+                <manifest.branch>${teamcity.buildConfName}</manifest.branch>
+                <manifest.label>${teamcity.buildConfName}-build.${build.number}</manifest.label>
+                <manifest.svnrevision>${build.vcs.number}</manifest.svnrevision>
+                <manifest.build.number>${build.number}</manifest.build.number>
+            </properties>
+        </profile>
+    </profiles>
+
+    <distributionManagement>
+        <repository>
+            <id>tackley-github-releases</id>
+            <url>file:///${basedir}/../tackley.github.com</url>
+        </repository>
+    </distributionManagement>
+
+    <scm>
+        <connection>scm:git:http://github.com/tackley/guardian-parent.git</connection>
+        <developerConnection>scm:git:git://git@github.com/tackley/guardian-parent.git</developerConnection>
+	<url>http://github.com/tackley/guardian-parent</url>
+    </scm>
+
+
+    <!--
+
+      Under NO circumstances should this pom include any dependencies.  Please don't add any.
+
+    -->
+</project>

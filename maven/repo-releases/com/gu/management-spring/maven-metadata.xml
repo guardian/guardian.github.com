@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.gu</groupId>
+  <artifactId>management-spring</artifactId>
+  <version>2.0</version>
+  <versioning>
+    <release>2.0</release>
+    <versions>
+      <version>2.0</version>
+    </versions>
+    <lastUpdated>20100506144427</lastUpdated>
+  </versioning>
+</metadata>
