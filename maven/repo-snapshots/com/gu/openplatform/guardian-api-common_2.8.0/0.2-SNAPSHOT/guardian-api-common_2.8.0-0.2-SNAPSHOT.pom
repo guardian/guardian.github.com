@@ -7,6 +7,24 @@
     <version>0.2-SNAPSHOT</version>
     <dependencies>
         <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-servlets</artifactId>
+            <version>7.0.1.v20091125</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.gu</groupId>
+            <artifactId>configuration</artifactId>
+            <version>2.4</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.liftweb</groupId>
+            <artifactId>lift-json_2.8.0</artifactId>
+            <version>2.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
             <version>1.6</version>
@@ -19,14 +37,8 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>net.liftweb</groupId>
-            <artifactId>lift-json_2.8.0</artifactId>
-            <version>2.1</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.google.inject.extensions</groupId>
-            <artifactId>guice-servlet</artifactId>
+            <groupId>com.gu</groupId>
+            <artifactId>management-guice</artifactId>
             <version>2.0</version>
             <scope>compile</scope>
         </dependency>
@@ -37,27 +49,9 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-servlets</artifactId>
-            <version>7.0.1.v20091125</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
             <groupId>com.google.collections</groupId>
             <artifactId>google-collections</artifactId>
             <version>1.0</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.gu</groupId>
-            <artifactId>configuration</artifactId>
-            <version>2.4</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.solr</groupId>
-            <artifactId>solr-solrj</artifactId>
-            <version>1.4.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -67,8 +61,14 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.gu</groupId>
-            <artifactId>management-guice</artifactId>
+            <groupId>org.apache.solr</groupId>
+            <artifactId>solr-solrj</artifactId>
+            <version>1.4.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.inject.extensions</groupId>
+            <artifactId>guice-servlet</artifactId>
             <version>2.0</version>
             <scope>compile</scope>
         </dependency>
