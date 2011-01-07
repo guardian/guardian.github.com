@@ -1,2 +1,11 @@
 /maven/repo-releases contains a maven release repository
 /maven/repo-snapshots contains a maven snapshot repository
+
+Releasing:
+
+In order to release a project into this repository ensure the following.  Look at this to see https://github.com/guardian/guardian-management/blob/master/pom.xml how the scm and distributionManagement elements are configured:
+
+1) your project is up to date and checked into it's repository
+2) run mvn release:prepare - this will update release numbers and push those into your repository
+3) run mvn release:perform - this copies the artifacts to the directory
+4) add, commit and push this repository
