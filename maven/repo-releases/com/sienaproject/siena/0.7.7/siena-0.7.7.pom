@@ -5,6 +5,6 @@
   <groupId>com.sienaproject</groupId>
   <artifactId>siena</artifactId>
   <version>0.7.7</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <description>POM was created from install:install-file</description>
 </project>
