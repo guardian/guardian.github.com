@@ -12,11 +12,3 @@ for DIR in $(find . -type d  \( ! -regex '.*/\..*' \) ); do
     echo -e "</pre>\n</body>\n</html>"
   ) > "${DIR}/index.html"
 done
-
-echo -e "Creating .index/nexus-maven-repository-index.properties"
-mkdir -p .index
-cat > .index/nexus-maven-repository-index.properties << EOF
-nexus.index.time=$(date +'%Y%m%d%H%M%S.%3N %z')
-nexus.index.timestamp=$(date +'%Y%m%d%H%M%S.%3N %z')
-nexus.index.id=guardian-public-releases
-EOF
