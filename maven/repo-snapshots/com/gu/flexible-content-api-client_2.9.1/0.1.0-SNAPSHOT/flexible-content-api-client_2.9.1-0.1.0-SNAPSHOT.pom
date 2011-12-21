@@ -12,8 +12,8 @@
     </organization>
     <dependencies>
         <dependency>
-            <groupId>common</groupId>
-            <artifactId>common_2.9.1</artifactId>
+            <groupId>com.gu</groupId>
+            <artifactId>flexible-content-common_2.9.1</artifactId>
             <version>0.1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
