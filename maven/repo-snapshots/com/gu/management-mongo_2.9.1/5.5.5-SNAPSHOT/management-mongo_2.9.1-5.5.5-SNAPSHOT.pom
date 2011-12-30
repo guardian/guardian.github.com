@@ -5,7 +5,7 @@
     <artifactId>management-mongo_2.9.1</artifactId>
     <packaging>jar</packaging>
     <description>management-mongo</description>
-    <version>5.5-SNAPSHOT</version>
+    <version>5.5.5-SNAPSHOT</version>
     <name>management-mongo</name>
     <organization>
         <name>com.gu</name>
@@ -14,7 +14,7 @@
         <dependency>
             <groupId>com.gu</groupId>
             <artifactId>management_2.9.1</artifactId>
-            <version>5.5-SNAPSHOT</version>
+            <version>5.5.5-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
