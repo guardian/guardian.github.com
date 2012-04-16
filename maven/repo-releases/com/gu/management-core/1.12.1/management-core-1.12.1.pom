@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.gu</groupId>
+        <artifactId>management</artifactId>
+        <version>1.12.1</version>
+    </parent>
+
+    <name>Guardian Management helpers :: core</name>
+    
+    <groupId>com.gu</groupId>
+    <artifactId>management-core</artifactId>
+
+    <dependencies>
+        <!--
+
+        DO NOT under any circumstances add a dependency to spring, hibernate or guice here please.
+
+         -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.4</version>
+        </dependency>
+        <!--
+
+        DO NOT under any circumstances add a dependency to spring, hibernate or guice here please.
+
+         -->
+
+    </dependencies>
+    
+</project>
