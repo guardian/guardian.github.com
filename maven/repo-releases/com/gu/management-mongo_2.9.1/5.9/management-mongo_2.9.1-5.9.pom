@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.gu</groupId>
+    <artifactId>management-mongo_2.9.1</artifactId>
+    <packaging>jar</packaging>
+    <description>management-mongo</description>
+    <version>5.9</version>
+    <name>management-mongo</name>
+    <organization>
+        <name>com.gu</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>com.gu</groupId>
+            <artifactId>management_2.9.1</artifactId>
+            <version>5.9</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.9.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>0.9.27</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongo-java-driver</artifactId>
+            <version>2.7.3</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.mongodb.casbah</groupId>
+            <artifactId>casbah_2.9.1</artifactId>
+            <version>2.1.5-1</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>ScalaToolsMaven2Repository</id>
+            <name>Scala-Tools Maven2 Repository</name>
+            <url>http://scala-tools.org/repo-releases/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
