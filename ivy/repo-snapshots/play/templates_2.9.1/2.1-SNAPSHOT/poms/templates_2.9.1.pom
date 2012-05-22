@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>play</groupId>
+    <artifactId>templates_2.9.1</artifactId>
+    <packaging>jar</packaging>
+    <description>Templates</description>
+    <version>2.1-SNAPSHOT</version>
+    <name>Templates</name>
+    <organization>
+        <name>play</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>com.github.scala-incubator.io</groupId>
+            <artifactId>scala-io-file_2.9.1</artifactId>
+            <version>0.4.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.specs2</groupId>
+            <artifactId>specs2_2.9.1</artifactId>
+            <version>1.9</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>TypesafeRepository</id>
+            <name>Typesafe Repository</name>
+            <url>http://repo.typesafe.com/typesafe/releases/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
