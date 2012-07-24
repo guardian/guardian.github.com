@@ -14,19 +14,19 @@
         <dependency>
             <groupId>com.gu</groupId>
             <artifactId>management_2.9.1</artifactId>
-            <version>5.14</version>
+            <version>5.15</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.gu</groupId>
             <artifactId>management-play_2.9.1</artifactId>
-            <version>5.14</version>
+            <version>5.15</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.gu</groupId>
             <artifactId>management-logback_2.9.1</artifactId>
-            <version>5.14</version>
+            <version>5.15</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
