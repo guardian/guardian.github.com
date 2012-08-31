@@ -2,11 +2,11 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.gu</groupId>
-    <artifactId>com.gu.pa-client_2.9.1</artifactId>
+    <artifactId>pa-client_2.9.1</artifactId>
     <packaging>jar</packaging>
-    <description>com.gu.pa-client</description>
+    <description>pa-client</description>
     <version>1.10</version>
-    <name>com.gu.pa-client</name>
+    <name>pa-client</name>
     <organization>
         <name>com.gu</name>
     </organization>
