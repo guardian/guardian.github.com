@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.gu</groupId>
     <artifactId>feature-switching_2.9.1</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <description>feature-switching</description>
     <version>0.1-SNAPSHOT</version>
     <name>feature-switching</name>
