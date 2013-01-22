@@ -8,4 +8,3 @@ In order to release a project into this repository ensure the following.  Look a
 1) your project is up to date and checked into its repository
 2) run update-directory-index.sh to create directory index.html files to help Nexus spider this repository
 3) add, commit and push this repository
-
