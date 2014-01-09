@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<main class="content">
+    <section class="container">
+    	<div class="row-fluid">
+    		<article class="home-icon">
+				<a href="/">
+					<i class="icon-home"></i> 
+				</a>
+			</article>
+			<article class="post">
+				<h2 class="content">{{page.title}}</h2>
+				<h5>{{ page.date | date: "%d %B %Y" }}</h5>
+				<section>
+					{{ content }}
+					<hr>
+				</section>
+				<section style="margin-bottom: 2em;">
+					{% if page.previous %} 
+							<a rel="prev" class="a-hover"href="{{ page.previous.url }}"><i class="icon-arrow-left"></i> {{ page.previous.title }}</a>
+						{% endif %}
+						{% if page.next %} 
+							<a rel="next" style="float:right" class="a-hover"href="{{ page.next.url }}">{{ page.next.title }} <i class="icon-arrow-right"></i></a>
+					{% endif %}
+				</section>
+			</article>
+		</div>
+	</section>
+</main>
