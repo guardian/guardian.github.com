@@ -9,21 +9,23 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="description" content="Guardian developers and engineering site">
 		<link rel="stylesheet" href="/css/base.css">
+		<link rel="stylesheet" href="/css/pages.css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic' rel='stylesheet' type='text/css'> 
 		<script src="/js/coffee-script.js"></script>
 	</head>
-	<body>
+	<body class="{{page.class}}">
 	<!-- Header
 		================================================== -->
 	<header class="header">
 
 		<nav class="navigation">
-			<a class="navigation-item" href="/developers/index.html">Home</a> | <span class="navigation-item">FAQ</span> | <a class="navigation-item" href="/developers/coderwall.html">Coderwall</a>
+			<a class="navigation-item" href="/developers/index.html">Home</a> | <a class="navigation-item" href="/developers/coderwall.html">Coderwall</a> | Our projects | <a href="/developers/technology.html">Technology</a> | <a href="/developers/work.html">Work with us</a> | <a class="navigation-item" href="/developers/faq.html">FAQ</a> | About
 		</nav>
 	</header>
 
 	<section class="content">
-	{{ content }}
+		<h1 class="title">{{page.page_title}}</h1>
+		{{ content }}
 	</section>
 
 	<footer class="footer">
