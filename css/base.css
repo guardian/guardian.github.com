@@ -40,7 +40,9 @@ a:visited {
 .coderwall {
 	list-style-image: none;
 	padding-left: 0;
-	padding-bottom: 2rem;
+	padding-bottom: 1rem;
+
+	margin: 0 2% 2rem;
 
 	border-bottom: 1px #222 solid;
 }
@@ -70,6 +72,19 @@ a:visited {
 	font-family: serif;
 }
 
-.work h2 {
-	text-align: center;
+.project-listing-list {
+	width: 96%;
+	margin: 0 2% 2rem;
+}
+
+.project-listing-list-name {
+	width: 40%;
+}
+
+.project-listing-list-details {
+	width: 40%;
+}
+
+.project-listing-list-last-activity {
+	width: 20%;
 }
