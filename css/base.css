@@ -79,13 +79,29 @@ a:visited {
 }
 
 .project-listing-list-name {
-	width: 40%;
+	width: 100%;
+	font-size: 1.2rem;
+	padding: 0 0 0.5rem;
+	text-align: left;
 }
 
 .project-listing-list-details {
-	width: 40%;
+	display: table-row;
+}
+
+.project-listing-list-details, .project-listing-list-description, .project-listing-list-last-activity {
+	vertical-align: top;
+	display: table-cell;
+}
+
+.project-listing-list-description {
+	width: 60%;
+}
+
+.project-listing-list-last-activity,  {
+	width: 30%;
 }
 
 .project-listing-list-last-activity {
-	width: 20%;
+	width: 10%;
 }

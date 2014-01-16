@@ -7,4 +7,4 @@ if jQuery('.project-listing').length > 0
 
 	projectsCall.done (data) ->
 		data.forEach (project) ->
-			jQuery('.project-listing-list').append("<tr><td class=\"project-listing-list-name\"><a href=\"#{project.html_url}\">#{project.name}</a><br>#{project.description}</td> <td class=\"project-listing-list-details\">#{project.language}, starred #{project.stargazers_count} times, #{project.watchers_count} watchers</td><td class=\"project-listing-list-last-activity\">#{moment.utc(project.pushed_at).fromNow()}</td></tr> ")
+			jQuery('.project-listing-list').append("<p class=\"project-listing-list-name\"><a href=\"#{project.html_url}\">#{project.name}</a></p><div class=\"project-listing-list-details\"><p class=\"project-listing-list-description\">#{project.description}</p> <p class=\"project-listing-list-details\">#{project.language}, starred #{project.stargazers_count} times, #{project.watchers_count} watchers</p><p class=\"project-listing-list-last-activity\">#{moment.utc(project.pushed_at).fromNow()}</p>")
