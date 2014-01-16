@@ -39,6 +39,9 @@ a:visited {
 .coderwall {
 	list-style-image: none;
 	padding-left: 0;
+	padding-bottom: 2rem;
+
+	border-bottom: 1px #222 solid;
 }
 
 .coderwall-coder {
@@ -49,4 +52,19 @@ a:visited {
 .coderwall-coder-avatar {
 	width: 80px;
 	height: 80px;
+}
+
+.coder-info-display {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.coder-info-display-userid {
+	font-size: 1.5rem;
+}
+
+.coder-info-display-github-comment {
+	padding-left: 0.5rem;
+	font-style: italic;
+	font-family: serif;
 }
