@@ -81,27 +81,32 @@ a:visited {
 .project-listing-list-name {
 	width: 100%;
 	font-size: 1.2rem;
-	padding: 0 0 0.5rem;
 	text-align: left;
 }
 
-.project-listing-list-details {
-	display: table-row;
+.project-listing-project {
+	margin-bottom: 1rem;
 }
 
-.project-listing-list-details, .project-listing-list-description, .project-listing-list-last-activity {
+.project-listing-list-details {
+	display: table;
+	width: 100%;
+}
+
+.project-listing-list-description, .project-listing-list-last-activity, .project-listing-list-summary {
 	vertical-align: top;
 	display: table-cell;
+	padding-right: 2rem;
 }
 
 .project-listing-list-description {
-	width: 60%;
+	width: 40%;
 }
 
-.project-listing-list-last-activity,  {
-	width: 30%;
+.project-listing-list-summary  {
+	width: 40%;
 }
 
 .project-listing-list-last-activity {
-	width: 10%;
+	width: 20%;
 }
