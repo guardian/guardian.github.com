@@ -96,15 +96,16 @@ a:visited {
 .project-listing-list-description, .project-listing-list-last-activity, .project-listing-list-summary {
 	vertical-align: top;
 	display: table-cell;
-	padding-right: 2rem;
+	padding-right: 1rem;
 }
 
 .project-listing-list-description {
-	width: 40%;
+	width: 50%;
+	padding-right: 4rem;
 }
 
 .project-listing-list-summary  {
-	width: 40%;
+	width: 30%;
 }
 
 .project-listing-list-last-activity {

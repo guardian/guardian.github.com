@@ -1,4 +1,12 @@
 
-.work h2 {
+.work h2, .work h3 {
 	text-align: center;
+}
+
+.work h2 {
+	font-size: 2.5rem;
+}
+
+.work h3 {
+	font-size: 1.75rem;
 }
