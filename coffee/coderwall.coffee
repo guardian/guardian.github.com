@@ -40,5 +40,16 @@ if jQuery('.coderwall-display').length
 		jQuery(".coderwall-coder").on "click", (event) ->
 			event.preventDefault()
 			userid = jQuery(event.target).data('userid')
-			loadEvents(userid, '.coder-info-display')
+			coder_block = jQuery(event.target).parents('.coderwall-coder')
+
+			if coder_block.hasClass('s-selected')
+				jQuery('.coderwall-coder').fadeIn(1000)
+
+			coder_block.toggleClass('s-selected')
+
+			if coder_block.hasClass('s-selected')
+				jQuery(".coderwall-coder").not(".s-selected").fadeOut(1000)
+				loadEvents(userid, '.coder-info-display')
+
+
 

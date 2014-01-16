@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Coderwall for Guardian Digital Development
+title: Meet the Guardian Digital Development developers
 page_title: Our developers
 ---
 

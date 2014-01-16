@@ -75,6 +75,7 @@ a:visited {
 .project-listing-list {
 	width: 96%;
 	margin: 0 2% 2rem;
+	vertical-align: top;
 }
 
 .project-listing-list-name {
