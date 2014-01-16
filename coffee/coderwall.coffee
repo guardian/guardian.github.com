@@ -17,10 +17,14 @@ if jQuery('.coderwall-display').length
 					item.payload.commits.forEach (commit) ->
 						display.append("<p class=\"coder-info-display-github-comment\">#{commit.message}</p>")
 				if item.type is "CreateEvent"
-					display.append("<p>Created new project <a href\"#{item.repo.url}\">#{item.repo.name}</a></p>")
+					display.append("<p>Created new project <a href=\"#{item.repo.url}\">#{item.repo.name}</a></p>")
 				if item.type is "IssueCommentEvent"
 					display.append "<p>Commented on <a href=\"#{item.payload.comment.url}\">#{item.payload.issue.title}</a></p>"
 					display.append "<p class=\"coder-info-display-github-comment\">#{item.payload.comment.body}</p>"
+
+				if item.type is "PullRequestEvent"
+					display.append "<p>Pull request #{item.payload.pull_request.title} #{item.payload.action}</p>"
+					display.append "<p class=\"coder-info-display-github-comment\">#{item.payload.pull_request.body}</p>"
 
 	memberCall = jQuery.ajax {
 		url: 'https://api.github.com/orgs/guardian/members',
