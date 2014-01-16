@@ -9,35 +9,49 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="description" content="Guardian developers and engineering site">
 		<link rel="stylesheet" href="/css/base.css">
-	    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic' rel='stylesheet' type='text/css'>   
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic' rel='stylesheet' type='text/css'> 
+		<script src="/js/coffee-script.js"></script>
 	</head>
 	<body>
 	<!-- Header
-	    ================================================== -->
-	<header>
+		================================================== -->
+	<header class="header">
 
+		<nav class="navigation">
+			<a class="navigation-item" href="/developers/index.html">Home</a> | <span class="navigation-item">FAQ</span> | <a class="navigation-item" href="/developers/coderwall.html">Coderwall</a>
+		</nav>
 	</header>
 
 	<section class="content">
 	{{ content }}
 	</section>
 
-	<footer>
+	<footer class="footer">
 		<div class="container">
-			Footer
+			&copy; The Guardian 2014
 		</div>
 	</footer>
 
 	<!-- Footer
-	    ================================================== -->
+		================================================== -->
 
 	<!-- Javascripts 
-	    ================================================= -->
+		================================================= -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="/coffee/hello.coffee" type="text/coffeescript"></script>
+	<script src="/coffee/coderwall.coffee" type="text/coffeescript"></script>
 
-    <!-- Analytics
-    ================================================== -->
-    <script>
-		// analytics code
-    </script>	
+	<!-- Analytics
+	================================================== -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-47202181-1', 'guardian.github.io');
+		ga('send', 'pageview');
+
+	</script>
 	</body>
 </html>

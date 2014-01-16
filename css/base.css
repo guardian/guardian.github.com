@@ -1,6 +1,52 @@
 
 body {
-	margin: 2rem 10% 1rem;
-	max-width: 30rem;
+	margin: 0rem 10% 1rem;
 	font-family: 'open sans', sans-serif;
+	background-color: #eee;
+	color: #333;
+}
+
+a {
+	color: #111;
+	font-weight: bold;
+}
+
+a:visited {
+	color: #888;
+}
+
+.navigation {
+	padding: 0.5rem;
+}
+
+.footer, .navigation {
+	font-size: 0.8rem;
+}
+
+.footer {
+	display: none;
+}
+
+.title {
+	font-size: 3.5rem;
+	text-align: center;
+	padding: 0 10% 2rem;
+
+	border-bottom: 2px #222 solid;
+
+}
+
+.coderwall {
+	list-style-image: none;
+	padding-left: 0;
+}
+
+.coderwall-coder {
+	display: inline-block;
+	margin-right: 0.5rem;
+}
+
+.coderwall-coder-avatar {
+	width: 80px;
+	height: 80px;
 }
