@@ -10,6 +10,6 @@ At the Guardian we try to ensure all the development teams have access to dedica
 
 Systems are of course be spreading best practice around security, scaling and monitoring as well as providing the tools for developers to do their jobs faster such as faster deployment methods.
 
-Equally important is maintaining the platform be it internal on our new OpenStack cloud or outside the building in Amazon Web Services.
+Equally important is maintaining the platform be it internal on our new [OpenStack](http://www.openstack.org/) cloud or outside the building in Amazon Web Services.
 
 The Guardian has good links between developers and systems people although we're constantly striving to improve them as we see it as a good way to get more resilient, scalable products with fewer nasty surprises.
