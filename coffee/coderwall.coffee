@@ -11,6 +11,8 @@ if jQuery('.coderwall-display').length
 			
 			display.append("<h3 class=\"coder-info-display-userid\">#{userid}</h3>")
 
+			display.append "<p class=\"coder-info-display-info\"><a href=\"https://github.com/#{userid}\">Github profile</a></p>"
+
 			data.slice(0,5).forEach (item) ->
 				if item.type is "PushEvent"
 					display.append("<p>Pushed to <a href=\"#{item.repo.url}\">#{item.repo.name}</a> ...</p>")

@@ -89,6 +89,10 @@ a:visited {
 	font-size: 1.5rem;
 }
 
+.coder-info-display-info {
+	font-size: 0.8rem;
+}
+
 .coder-info-display-github-comment {
 	padding-left: 0.5rem;
 	font-style: italic;
