@@ -19,3 +19,12 @@ It’s our aspiration to make the Guardian the number one quality news site in t
 
 Guardian developers build the products that showcase our diverse and important journalism. We create tools that allow journalists and editors to write their stories securely, anywhere from London to Syria, and build APIs and services that allow those stories to be distributed across the globe. Everything we do is in pursuit of the values in which the Guardian was founded.
 
+## About the management team
+
+### Jim Murphy, Head of QA
+
+The QA team's primary responsibility is to test The Guardian's digital products prior to their release to ensure that they are of a high quality, and are accessible on all supported browsers and devices used by our audience.
+
+QAs work as part of cross-functional product teams, alongside developers, scrum masters, product managers, designers and usability engineers, to deliver new product features and enhancements within two week Sprints.
+
+The team's philosophy is to be as adaptive and agile as possible when testing so that we can create the best products possible in the best time frame possible. Recently the team have implemented several major changes to our testing processes across our products to ensure that we can release new product features more frequently and with a higher degree of quality. This includes the implementation of an automated testing approach, that ensures our testing is accurate, cost-effective and and most importantly fast at detecting issues prior to a Product's release.

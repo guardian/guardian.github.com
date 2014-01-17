@@ -13,7 +13,8 @@ That means there is a wide variety of technologies and application stacks in use
 * Scala
 * Javascript
 * HTML and CSS
-* Objective C and Android Java
+* Objective C
+* Java (Android)
 
 ## The Whitelist
 
