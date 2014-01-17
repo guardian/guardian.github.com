@@ -17,15 +17,17 @@ a:visited {
 
 .navigation {
 	padding: 0.5rem;
-	margin: 0 2%;
 }
 
 .footer, .navigation {
-	font-size: 0.8rem;
+	font-size: 1.2rem;
+	text-align: center;
 }
 
-.footer {
-	display: none;
+@media (min-width: 640px) {
+	.footer, .navigation {
+		font-size: 0.8rem;
+	}
 }
 
 .title {
@@ -35,6 +37,27 @@ a:visited {
 
 	border-bottom: 2px #222 solid;
 
+}
+
+.content {
+	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+	border-bottom: 2px #222 solid;
+}
+
+.quote-text {
+	font-size: 3rem;
+	font-family: serif;
+	font-style: italic;
+}
+
+.quote-text:last {
+	margin-bottom: 0.5rem;
+}
+
+.quote-attributation {
+	text-align: right;
+	font-size: 2rem;
 }
 
 .coderwall {
