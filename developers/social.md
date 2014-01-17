@@ -4,7 +4,7 @@ title: Social life in the Digital Department
 page_title: Good times
 ---
 
-The Guardian is socialable fun place to work, there are lots of social clubs and activities that people can participate in. In addition to being personally rewarding the social activities are a great please for developers to mix with other people who work at the Guardian from editorial, commercial, operations or the building staff who keep our office running 24 hours a day.
+The Guardian is sociable fun place to work, there are lots of social clubs and activities that people can participate in. In addition to being personally rewarding the social activities are a great please for developers to mix with other people who work at the Guardian from editorial, commercial, operations or the building staff who keep our office running 24 hours a day.
 
 We have a [choir](#guardian_angels), football teams and employees are given leave each year to volunteer for charity. Developers can also take part in [Volunteering Week](http://www.theguardian.com/sustainability/volunteering-week) which aims to provide focussed cross-functional expertise on media and technology from the Guardian to charities.
 
