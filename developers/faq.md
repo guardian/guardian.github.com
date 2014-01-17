@@ -34,7 +34,7 @@ A common setup is Ubuntu Linux, OpenJDK 7 and IntelliJ (we have departmental lic
 
 ## What is the path to production like?
 
-We run TeamCity for our integration builds and we have our own deployment tool called RiffRaff that can work either in continuous or push-button deployment mode.
+We run TeamCity for our integration builds and we have our own deployment tool called [RiffRaff](http://github.com/guardian/deploy) that can work either in continuous or push-button deployment mode.
 
 ## What are the teams like?
 
