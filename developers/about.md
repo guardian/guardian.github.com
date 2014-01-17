@@ -21,6 +21,17 @@ Guardian developers build the products that showcase our diverse and important j
 
 ## About the management team
 
+### Rex Cooper, Head of Development
+
+When you work at The Guardian, you know that you are in a world class engineering company. When you walk around, you see the the teams using the latest technologies and techniques, things like: Scala, Continuous Delivery, AWS, responsive web design, Sass, Elasticsearch and AngularJS.
+
+Our people are well known for their expertise. We are continually [speaking at events and conferences](/developers/talks.html), sharing our experiences and allowing other organisations to learn from us.
+
+At The Guardian, we have a mission to ensure our journalism lives on in perpetuity. Our developers are at the heart of this, ensuring we make the transition to being an independent, financially secure online newspaper.
+
+If you want to work with the best people, for an organisation with a purpose, [come and join us](/developers/work.html). We are always on the lookout for talent.
+
+
 ### Jim Murphy, Head of QA
 
 The QA team's primary responsibility is to test The Guardian's digital products prior to their release to ensure that they are of a high quality, and are accessible on all supported browsers and devices used by our audience.
