@@ -1,0 +1,17 @@
+
+.frontend-summary {
+	display: table;
+	padding: 0 2%;
+}
+
+.frontend-summary-description {
+	display: table-cell;
+	width: 60%;
+	padding-right: 1rem;
+}
+
+.frontend-summary-details {
+	display: table-cell;
+	width: 40%;
+	font-size: 0.8rem;
+}

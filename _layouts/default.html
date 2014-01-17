@@ -10,6 +10,9 @@
 		<meta name="description" content="Guardian developers and engineering site">
 		<link rel="stylesheet" href="/css/base.css">
 		<link rel="stylesheet" href="/css/pages.css">
+		{% if page.styling %}
+		<link rel="stylesheet" href="{{ page.styling }}">
+		{% endif %}
 		<link rel="stylesheet" href="/css/shame.css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="http://static.guim.co.uk/favicon.ico" type="image/x-icon" /> 
@@ -43,8 +46,8 @@
 		================================================= -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script src="/js/moment.min.js"></script>
+	<script src="/js/knockout-3.0.0.js"></script>
 	<script src="/coffee/coderwall.coffee" type="text/coffeescript"></script>
-	<script src="/coffee/projects.coffee" type="text/coffeescript"></script>
 
 	{% if page.script %}
 	<script async type="text/coffeescript" src="{{ page.script }}"></script>
