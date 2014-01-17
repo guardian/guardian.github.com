@@ -2,7 +2,14 @@
 title: Technology
 page_title: Technology
 layout: default
+script: /coffee/technology.coffee
 ---
+
+Our director of architecture, Graham Tackley, recently gave at GOTO about how he sees the current state of development and how he thinks developers should organise and approach developing software.
+
+<div id="graham-talk">
+	
+</div>
 
 Teams within the Digital Department have a lot of autonomy to make the right choices about what technology they use to deliver their work. What works for delivering the iOS News Edition app is going to be quite different from how we implement the CMS tools journalists use.
 
