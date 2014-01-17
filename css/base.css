@@ -45,6 +45,14 @@ a:visited {
 	border-bottom: 2px #222 solid;
 }
 
+.content a {
+	color: red;
+}
+
+.content a:visited {
+	color: #888;
+}
+
 .quote-text {
 	font-size: 3rem;
 	font-family: serif;
@@ -137,4 +145,9 @@ a:visited {
 
 .project-listing-list-last-activity {
 	width: 20%;
+}
+
+.talks-talk-summary {
+	margin-left: 1rem;
+	padding-bottom: 2rem;
 }
