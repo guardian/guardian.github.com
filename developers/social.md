@@ -4,9 +4,9 @@ title: Social life in the Digital Department
 page_title: Good times
 ---
 
-The Guardian is sociable fun place to work, there are lots of social clubs and activities that people can participate in. In addition to being personally rewarding the social activities are a great please for developers to mix with other people who work at the Guardian from editorial, commercial, operations or the building staff who keep our office running 24 hours a day.
+The Guardian is sociable, fun place to work, there are lots of clubs and activities that people can participate in. In addition to being personally rewarding the social activities are a great please for developers to mix with other people who work at the Guardian from editorial, commercial, operations or the building staff who keep our office running 24 hours a day.
 
-We have a [choir](#guardian_angels), football teams and employees are given leave each year to volunteer for charity. Developers can also take part in [Volunteering Week](http://www.theguardian.com/sustainability/volunteering-week) which aims to provide focussed cross-functional expertise on media and technology from the Guardian to charities.
+We have a [choir](#guardian_angels), [football teams](#football) and employees are given leave each year to volunteer for charity. Developers can also take part in [Volunteering Week](http://www.theguardian.com/sustainability/volunteering-week) which aims to provide focussed cross-functional expertise on media and technology from the Guardian to charities.
 
 ## Guardian Angels
 
@@ -21,3 +21,13 @@ I came to Guardian Angels through a college who browbeat me to join and at first
 As a general rule, I leave the lunchtime sessions on a high and smile on the face so please come and join us... Its fun and will change you forever
 
 Gwyn 'The Soul-man' Lockett
+
+## Football
+
+Every Friday lunchtime a group of ten or so people from Dig Dev and other departments gather to play football. Regardless or weather, or time of year we turn up and kick a football.
+
+We play on a couple of pitches near work - both about a five minute walk away. It's all very informal - there's a minimum cost each few weeks towards replacing lost footballs etc. but otherwise just turn up - and you don't need to commit to playing every week. Matches last an hour so by the time you've showered and had food it's been a long lunch. But that's one of the great things about The Guardian; people treat you like an adult - if you get your work done then no one is going to care if you take a long break.
+
+For me, football has been a great way to get to know people, keep fit, and have fun playing my favourite sport!
+
+Nicolas Long
