@@ -1,6 +1,4 @@
 
-console.log "Hello dev blog!"
-
 devBlogCall = jQuery.ajax
 	url: 'http://beta.content.guardianapis.com/info/developer-blog?show-fields=all&show-elements=all&api-key=gdn-dev-site',
 	cache: true
