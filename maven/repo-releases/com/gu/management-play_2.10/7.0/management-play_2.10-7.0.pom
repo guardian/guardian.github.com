@@ -5,7 +5,7 @@
     <artifactId>management-play_2.10</artifactId>
     <packaging>jar</packaging>
     <description>management-play</description>
-    <version>7.1-SNAPSHOT</version>
+    <version>7.0</version>
     <name>management-play</name>
     <organization>
         <name>com.gu</name>
