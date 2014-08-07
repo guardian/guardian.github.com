@@ -37,9 +37,9 @@
             <version>0.11.0</version>
         </dependency>
         <dependency>
-            <groupId>com.fasterxml.jackson.module</groupId>
-            <artifactId>jackson-module-scala_2.10</artifactId>
-            <version>2.3.0</version>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play-json_2.10</artifactId>
+            <version>2.2.1</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -47,4 +47,24 @@
             <version>1.6.2</version>
         </dependency>
     </dependencies>
+    <repositories>
+        <repository>
+            <id>Typesaferepository</id>
+            <name>Typesafe repository</name>
+            <url>http://repo.typesafe.com/typesafe/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>TemplemoreRepository</id>
+            <name>Templemore Repository</name>
+            <url>http://templemore.co.uk/repo/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>SonatypeOSS</id>
+            <name>Sonatype OSS</name>
+            <url>https://oss.sonatype.org/content/repositories/releases/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
 </project>
