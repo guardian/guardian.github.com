@@ -9,7 +9,7 @@
     <dependency>
       <groupId>com.snowplowanalytics</groupId>
       <artifactId>snowplow-java-tracker-core</artifactId>
-      <version>0.1.4-SNAPSHOT</version>
+      <version>0.1.5-SNAPSHOT</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
