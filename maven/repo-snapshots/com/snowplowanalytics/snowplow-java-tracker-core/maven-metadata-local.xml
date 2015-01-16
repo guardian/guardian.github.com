@@ -2,11 +2,11 @@
 <metadata>
   <groupId>com.snowplowanalytics</groupId>
   <artifactId>snowplow-java-tracker-core</artifactId>
-  <version>0.1.4-SNAPSHOT</version>
+  <version>0.1.5-SNAPSHOT</version>
   <versioning>
     <versions>
-      <version>0.1.4-SNAPSHOT</version>
+      <version>0.1.5-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20141120164851</lastUpdated>
+    <lastUpdated>20150116092540</lastUpdated>
   </versioning>
 </metadata>
