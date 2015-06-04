@@ -5,6 +5,5 @@
     <artifactId>imgix-java</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
-    <dependencies></dependencies>   
- </repositories>
+    <dependencies></dependencies>
 </project>
