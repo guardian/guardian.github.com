@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gu</groupId>
+  <artifactId>text-cleaning</artifactId>
+  <version>1.2</version>
+  <name>Text (especially HTML) cleaning</name>
+  
+	<parent>
+		<artifactId>guardian-shared-libraries</artifactId>        
+		<groupId>com.gu</groupId>
+		<version>2.0</version>
+	</parent>
+
+	<properties>
+		<hamcrest.version>1.1</hamcrest.version>
+		<junit.version>4.7</junit.version>
+        	<jtidy.version>04aug2000r6</jtidy.version>
+	</properties>
+
+
+	<dependencies>
+
+        <dependency>
+            <groupId>org.w3c.tidy</groupId>
+            <artifactId>jtidy</artifactId>
+            <version>${jtidy.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>xerces</groupId>
+            <artifactId>xercesImpl</artifactId>
+            <version>2.6.2</version>
+        </dependency>
+        <dependency>
+            <groupId>jdom</groupId>
+            <artifactId>jdom</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ccil.cowan.tagsoup</groupId>
+            <artifactId>tagsoup</artifactId>
+            <version>1.2</version>
+        </dependency>        
+
+		<!-- Test Dependencies -->
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-all</artifactId>
+			<version>${hamcrest.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+        <dependency>
+            <groupId>com.gu</groupId>
+            <artifactId>test-support</artifactId>
+            <version>1.20</version>
+        </dependency>
+	</dependencies>
+
+  <scm>
+    <connection>scm:svn:svn+ssh://svn.gudev.gnl/home/svn/repository/GUsrc/guardian-shared-libraries/tags/text-cleaning-1.2</connection>
+    <developerConnection>scm:svn:svn+ssh://svn.gudev.gnl/home/svn/repository/GUsrc/guardian-shared-libraries/tags/text-cleaning-1.2</developerConnection>
+  </scm>
+</project>
