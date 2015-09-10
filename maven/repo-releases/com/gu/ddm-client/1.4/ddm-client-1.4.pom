@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gu</groupId>
+  <artifactId>ddm-client</artifactId>
+  <version>1.4</version>
+  <description>POM was created by Sonatype Nexus, with a little hacking by Graham Tackley and Phil Wills</description>
+
+  <dependencies>
+  </dependencies>
+</project>

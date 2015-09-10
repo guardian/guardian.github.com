@@ -24,12 +24,7 @@
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk</artifactId>
-            <version>1.7.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.yaml</groupId>
-            <artifactId>snakeyaml</artifactId>
-            <version>1.13</version>
+            <version>1.8.9.1</version>
         </dependency>
         <dependency>
             <groupId>net.databinder.dispatch</groupId>
@@ -39,30 +34,29 @@
         <dependency>
             <groupId>com.typesafe.play</groupId>
             <artifactId>play-json_2.10</artifactId>
-            <version>2.2.1</version>
+            <version>2.3.2</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>1.6.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-webapp</artifactId>
+            <version>9.2.2.v20140723</version>
+        </dependency>
     </dependencies>
     <repositories>
         <repository>
-            <id>Typesaferepository</id>
-            <name>Typesafe repository</name>
+            <id>TypesafeRepo</id>
+            <name>Typesafe Repo</name>
             <url>http://repo.typesafe.com/typesafe/releases/</url>
             <layout>default</layout>
         </repository>
         <repository>
-            <id>TemplemoreRepository</id>
-            <name>Templemore Repository</name>
-            <url>http://templemore.co.uk/repo/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>SonatypeOSS</id>
-            <name>Sonatype OSS</name>
+            <id>SonatypeOSSReleases</id>
+            <name>Sonatype OSS Releases</name>
             <url>https://oss.sonatype.org/content/repositories/releases/</url>
             <layout>default</layout>
         </repository>

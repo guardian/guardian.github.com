@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.gu</groupId>
+  <artifactId>ddm-client</artifactId>
+  <versioning>
+    <latest>1.2</latest>
+    <release>1.2</release>
+    <versions>
+      <version>1.2</version>
+    </versions>
+    <lastUpdated>20100131130000</lastUpdated>
+  </versioning>
+</metadata>
