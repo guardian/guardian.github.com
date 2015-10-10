@@ -1,0 +1,65 @@
+<html><head>
+  <title>guardianipsum</title>
+  <style type="text/css">
+    body {
+    	padding-left: 32px;
+    	padding-right: 32px;
+    }
+
+    h1 {
+    	font-family: "TimesNewRoman";
+    	font-weight: semibold;
+    	font-size: 40pt;
+    }
+    p.ipsum {
+    	font-family: "TimesNewRoman";
+    	font-weight: regular;
+    	font-size: 18pt;
+    	line-height: 22pt;
+    	height: 80pt;
+    }
+  </style>
+</head>
+<body>
+	<h1><span style="color:#005689">guardian</span><spam style="color:#cccccc">ipsum</span></h1>
+	<p id="ipsum1" class="ipsum"></p>
+  <p id="ipsum2" class="ipsum"></p>
+  <p id="ipsum3" class="ipsum"></p>
+	<button onclick="doGenerate()">Another one</button>
+</body>
+<script type="text/javascript">
+  var terms = [ "austerity", "bedroom tax", "Bitcoin", "bonuses", "Boris Johnson", "climate change", "cuts", "cycling", "David Cameron", "discrimination", "Ed Balls", "Ed Miliband", "ethical", "Europe", "food banks", "for", "fracking", "healthcare", "housing", "inequality", "Michael Gove", "Morrissey", "Neil Gaiman", "NHS", "Nick Clegg", "NSA", "organic", "phone hacking", "poverty", "quinoa", "racism", "renewable", "Scotland", "Serco", "Snowden", "super-rich", "sustainable", "Thatcherism", "the", "The Killing", "to", "Ukip", "unemployment" ];
+  var NUM_WORDS = 16 + Math.floor(Math.random()*4);
+  function generate() {
+  	var w = [];
+  	var src = terms.slice(0);
+  	var index, word;
+    var startOfSentence = true;
+  	for(var i = 0; i < NUM_WORDS; i += 1) {
+  		index = Math.floor(Math.random()*src.length);
+      word = src[index];
+  		src.splice(index,1);
+      if(startOfSentence) {
+        word = word.charAt(0).toUpperCase()+word.slice(1);
+        startOfSentence = false;
+      } else { 
+        if(Math.random()>0.9 || i==NUM_WORDS-1) {
+          word += '.';
+          startOfSentence = true;
+        }
+      }
+      w.push(word);
+  	}
+  	return w.join(" ");
+  };
+  function doGenerate() {
+  	document.getElementById("ipsum1").innerHTML = generate();
+    document.getElementById("ipsum2").innerHTML = generate();
+    document.getElementById("ipsum3").innerHTML = generate();
+  };
+  window.onload = function(){
+
+  	doGenerate();
+  };
+</script>
+</html>
