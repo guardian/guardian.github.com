@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.gu</groupId>
+    <artifactId>dynamo-db-switches_2.11</artifactId>
+    <packaging>jar</packaging>
+    <description>dynamo-db-switches</description>
+    <version>0.2</version>
+    <name>dynamo-db-switches</name>
+    <organization>
+        <name>com.gu</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.11.7</version>
+        </dependency>
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk</artifactId>
+            <version>1.6.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.clapper</groupId>
+            <artifactId>grizzled-slf4j_2.10</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalacheck</groupId>
+            <artifactId>scalacheck_2.11</artifactId>
+            <version>1.10.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>SonatypeReleases</id>
+            <name>Sonatype Releases</name>
+            <url>http://oss.sonatype.org/content/repositories/releases/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
