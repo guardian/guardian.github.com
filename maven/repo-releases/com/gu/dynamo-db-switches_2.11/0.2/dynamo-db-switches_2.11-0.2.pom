@@ -19,12 +19,12 @@
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk</artifactId>
-            <version>1.6.3</version>
+            <version>1.10.28</version>
         </dependency>
         <dependency>
             <groupId>org.clapper</groupId>
-            <artifactId>grizzled-slf4j_2.10</artifactId>
-            <version>1.0.1</version>
+            <artifactId>grizzled-slf4j_2.11</artifactId>
+            <version>1.0.2</version>
         </dependency>
         <dependency>
             <groupId>org.scalacheck</groupId>
