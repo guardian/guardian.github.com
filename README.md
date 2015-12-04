@@ -21,5 +21,5 @@ Don't do this! But if you do...
 3) add, commit and push this repository
 
 ## Structure
-/maven/repo-releases contains a maven release repository
+/maven/repo-releases contains a maven release repository 
 /maven/repo-snapshots contains a maven snapshot repository
