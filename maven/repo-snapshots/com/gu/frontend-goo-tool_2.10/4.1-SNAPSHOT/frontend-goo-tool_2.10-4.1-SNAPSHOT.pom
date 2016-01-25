@@ -57,13 +57,7 @@
         <repository>
             <id>SonatypeOSSReleases</id>
             <name>Sonatype OSS Releases</name>
-            <url>https://oss.sonatype.org/content/repositories/staging/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>SecuredCentralRepository</id>
-            <name>Secured Central Repository</name>
-            <url>https://repo1.maven.org/maven2/</url>
+            <url>https://oss.sonatype.org/content/repositories/releases/</url>
             <layout>default</layout>
         </repository>
     </repositories>
