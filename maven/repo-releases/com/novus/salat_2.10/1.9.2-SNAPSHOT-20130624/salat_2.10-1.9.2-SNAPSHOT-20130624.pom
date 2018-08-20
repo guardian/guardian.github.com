@@ -31,7 +31,7 @@
         <repository>
             <id>GuardianGitHubReleases</id>
             <name>Guardian GitHub Releases</name>
-            <url>http://guardian.github.io/maven/repo-releases/</url>
+            <url>https://guardian.github.io/maven/repo-releases/</url>
             <layout>default</layout>
         </repository>
     </repositories>
